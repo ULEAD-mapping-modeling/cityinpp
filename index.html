@@ -56,7 +56,7 @@
             } else {
               highlightLayer.setStyle({
                 fillColor: '#ffff00',
-                fillOpacity: 1
+                fillOpacity: 0.5
               });
             }
         }
@@ -120,19 +120,19 @@
             });
             var popupContent = '<table>\
                     <tr>\
-                        <th scope="row">_NAME_UA</th>\
+                        <th scope="row">Name OTG</th>\
                         <td>' + (feature.properties['_NAME_UA'] !== null ? Autolinker.link(String(feature.properties['_NAME_UA'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">nam_units</th>\
+                        <th scope="row">Number units</th>\
                         <td>' + (feature.properties['nam_units'] !== null ? Autolinker.link(String(feature.properties['nam_units'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">area_otg</th>\
+                        <th scope="row">Population (th. of p.)</th>\
                         <td>' + (feature.properties['area_otg'] !== null ? Autolinker.link(String(feature.properties['area_otg'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">popul_otg</th>\
+                        <th scope="row">Area (sq.km)</th>\
                         <td>' + (feature.properties['popul_otg'] !== null ? Autolinker.link(String(feature.properties['popul_otg'])) : '') + '</td>\
                     </tr>\
                 </table>';
@@ -175,15 +175,15 @@
             });
             var popupContent = '<table>\
                     <tr>\
-                        <th scope="row">name</th>\
+                        <th scope="row">Name</th>\
                         <td>' + (feature.properties['name'] !== null ? Autolinker.link(String(feature.properties['name'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">popul_pp</th>\
+                        <th scope="row">Population (th. of p.)</th>\
                         <td>' + (feature.properties['popul_pp'] !== null ? Autolinker.link(String(feature.properties['popul_pp'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">area_pp</th>\
+                        <th scope="row">Area (sq.km)</th>\
                         <td>' + (feature.properties['area_pp'] !== null ? Autolinker.link(String(feature.properties['area_pp'])) : '') + '</td>\
                     </tr>\
                 </table>';
@@ -225,19 +225,19 @@
             });
             var popupContent = '<table>\
                     <tr>\
-                        <th scope="row">NAME_UA</th>\
+                        <th scope="row">Name</th>\
                         <td>' + (feature.properties['NAME_UA'] !== null ? Autolinker.link(String(feature.properties['NAME_UA'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">pp_obl</th>\
+                        <th scope="row">Number units</th>\
                         <td>' + (feature.properties['pp_obl'] !== null ? Autolinker.link(String(feature.properties['pp_obl'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">area_otg</th>\
+                        <th scope="row">Area (sq.km)</th>\
                         <td>' + (feature.properties['area_otg'] !== null ? Autolinker.link(String(feature.properties['area_otg'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">population</th>\
+                        <th scope="row">Population (th. of p.)</th>\
                         <td>' + (feature.properties['population'] !== null ? Autolinker.link(String(feature.properties['population'])) : '') + '</td>\
                     </tr>\
                 </table>';
@@ -279,15 +279,15 @@
             });
             var popupContent = '<table>\
                     <tr>\
-                        <th scope="row">name</th>\
+                        <th scope="row">Name</th>\
                         <td>' + (feature.properties['name'] !== null ? Autolinker.link(String(feature.properties['name'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">popul_pp</th>\
+                        <th scope="row">Population (th. of p.)</th>\
                         <td>' + (feature.properties['popul_pp'] !== null ? Autolinker.link(String(feature.properties['popul_pp'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">area_pp</th>\
+                        <th scope="row">Area (sq.km)</th>\
                         <td>' + (feature.properties['area_pp'] !== null ? Autolinker.link(String(feature.properties['area_pp'])) : '') + '</td>\
                     </tr>\
                 </table>';
@@ -532,7 +532,7 @@
             });
             var popupContent = '<table>\
                     <tr>\
-                        <th scope="row">nameUA_new</th>\
+                        <th scope="row">name_city</th>\
                         <td>' + (feature.properties['nameUA_new'] !== null ? Autolinker.link(String(feature.properties['nameUA_new'])) : '') + '</td>\
                     </tr>\
                     <tr>\
